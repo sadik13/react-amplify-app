@@ -1,17 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
-import awsConfig from './aws-exports';
-import {AmplifySignOut, withAuthenticator} from '@aws-amplify/ui-react'
-
-Amplify.configure(awsConfig)
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <AmplifySignOut />
-      <h2>My App content</h2>
+      <h2>My App content of AWS Amplify</h2>
       </header>
     </div>
   );
